@@ -1,0 +1,8 @@
+1. Clone the repository
+git clone <url>
+2. Commiting to remote repository
+  git add <yourFile>
+  git commit -m "create a file"
+  git push
+
+3. Commiting existing repository

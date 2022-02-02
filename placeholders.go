@@ -99,6 +99,7 @@ func main() {
 		zero, one, two, three, four, five, six, seven, eight, nine,
 	}
 	for {
+
 		now := time.Now()
 		hour, min, sec := now.Hour(), now.Minute(), now.Second()
 

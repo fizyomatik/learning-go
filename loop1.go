@@ -24,16 +24,22 @@ func main() {
 	}
 	var sum int
 
-	for i := min; i <= max; i++ {
+	for i := 0; i <= max; {
+		i++
+		if i%2 != 0 {
+			continue
+		}
+
 		sum += i
+
 		fmt.Print(i)
 		if i < max {
 			fmt.Print("+")
+			i++
 
 		}
 
 	}
 	fmt.Printf("=%d", sum)
 	fmt.Println()
-
 }

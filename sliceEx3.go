@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	files, err := ioutil.ReadDir("Array.go")
+	files, err := ioutil.ReadDir(".")
 	if err != nil {
 		log.Fatal(err)
 
